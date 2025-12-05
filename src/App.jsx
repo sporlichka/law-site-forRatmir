@@ -5,10 +5,10 @@ import whatsappVideo2 from "./assets/Avatar3.mp4";
 
 function App() {
   const lawyerVideos = [
-    { src: avatarVideo, name: "Lawyer 1", experience: 10 },
-    { src: whatsappVideo1, name: "Lawyer 2", experience: 8 },
-    { src: whatsappVideo2, name: "Lawyer 3", experience: 12 },
-    { src: avatarVideo, name: "Lawyer 4", experience: 15 }, // Reusing first video for 4th slot
+    { src: avatarVideo, name: "Kurbanov Ramil", experience: 6 },
+    { src: whatsappVideo1, name: "Bahyt Adelya", experience: 3 },
+    { src: whatsappVideo2, name: "Ratmir ZHukov", experience: 10 },
+    { src: avatarVideo, name: "Lawyer 4", experience: 4 }, // Reusing first video for 4th slot
   ];
   return (
     <div className="page">
