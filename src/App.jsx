@@ -7,7 +7,7 @@ function App() {
   const lawyerVideos = [
     { src: avatarVideo, name: "Kurbanov Ramil", experience: 6 },
     { src: whatsappVideo1, name: "Bahyt Adelya", experience: 3 },
-    { src: whatsappVideo2, name: "Ratmir ZHukov", experience: 10 },
+    { src: whatsappVideo2, name: "Ratmir Zhukov", experience: 10 },
     { src: avatarVideo, name: "Lawyer 4", experience: 4 }, // Reusing first video for 4th slot
   ];
   return (
