@@ -2,13 +2,14 @@ import "./App.css";
 import avatarVideo from "./assets/Avatar1.mp4";
 import whatsappVideo1 from "./assets/Avatar2.mp4";
 import whatsappVideo2 from "./assets/Avatar3.mp4";
+import whatsappVideo3 from "./assets/Avatar4.mp4";
 
 function App() {
   const lawyerVideos = [
     { src: avatarVideo, name: "Kurbanov Ramil", experience: 6 },
     { src: whatsappVideo1, name: "Bahyt Adelya", experience: 3 },
     { src: whatsappVideo2, name: "Ratmir Zhukov", experience: 10 },
-    { src: avatarVideo, name: "Lawyer 4", experience: 4 }, // Reusing first video for 4th slot
+    { src: whatsappVideo3, name: "Bahyt Ayimzhan", experience: 4 }, // Reusing first video for 4th slot
   ];
   return (
     <div className="page">
